@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.panel {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  grid-template-areas: ". top" ". botton";
+  background-color: aqua;
+}
+.container #panel-1 {
+  grid-area: botton;
+  background-color: brown;
+}
+.container #panel-2 {
+  grid-area: top;
+  background-color: blueviolet;
+}/*# sourceMappingURL=grid-demo.css.map */
